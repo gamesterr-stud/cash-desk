@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mzTAurHDQFwGoxr43h51qUBNI67zILyZyp2OFxUCTveHKHvd0ffJZtLoMCkSupQziNH2UHYrfxCEPRyzqAMEsg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jawor\\Desktop\\kasa sklepowa\\cash-desk\\cash-desk-front\\cash-desk-front.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jawor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

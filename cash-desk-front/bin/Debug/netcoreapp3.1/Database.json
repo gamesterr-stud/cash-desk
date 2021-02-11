@@ -1,0 +1,284 @@
+ [
+  {
+    "Name": "elit",
+    "Price": 926,
+    "Barcode": 1234,
+    "VatRate": 2
+  },
+  {
+    "Name": "consectetur",
+    "Price": 713,
+    "Barcode": 2341,
+    "VatRate": 2
+  },
+  {
+    "Name": "ex",
+    "Price": 676,
+    "Barcode": 2905,
+    "VatRate": 1
+  },
+  {
+    "Name": "sint",
+    "Price": 134,
+    "Barcode": 5979,
+    "VatRate": 1
+  },
+  {
+    "Name": "elit",
+    "Price": 382,
+    "Barcode": 5294,
+    "VatRate": 2
+  },
+  {
+    "Name": "irure",
+    "Price": 699,
+    "Barcode": 1737,
+    "VatRate": 2
+  },
+  {
+    "Name": "eu",
+    "Price": 779,
+    "Barcode": 8725,
+    "VatRate": 1
+  },
+  {
+    "Name": "consequat",
+    "Price": 709,
+    "Barcode": 2770,
+    "VatRate": 2
+  },
+  {
+    "Name": "laboris",
+    "Price": 871,
+    "Barcode": 3352,
+    "VatRate": 1
+  },
+  {
+    "Name": "aute",
+    "Price": 104,
+    "Barcode": 9609,
+    "VatRate": 1
+  },
+  {
+    "Name": "do",
+    "Price": 172,
+    "Barcode": 9760,
+    "VatRate": 1
+  },
+  {
+    "Name": "fugiat",
+    "Price": 31,
+    "Barcode": 8563,
+    "VatRate": 1
+  },
+  {
+    "Name": "ut",
+    "Price": 681,
+    "Barcode": 5839,
+    "VatRate": 2
+  },
+  {
+    "Name": "qui",
+    "Price": 703,
+    "Barcode": 4465,
+    "VatRate": 2
+  },
+  {
+    "Name": "officia",
+    "Price": 797,
+    "Barcode": 7640,
+    "VatRate": 2
+  },
+  {
+    "Name": "enim",
+    "Price": 781,
+    "Barcode": 6848,
+    "VatRate": 2
+  },
+  {
+    "Name": "do",
+    "Price": 818,
+    "Barcode": 2483,
+    "VatRate": 1
+  },
+  {
+    "Name": "sit",
+    "Price": 804,
+    "Barcode": 3383,
+    "VatRate": 1
+  },
+  {
+    "Name": "non",
+    "Price": 335,
+    "Barcode": 2636,
+    "VatRate": 2
+  },
+  {
+    "Name": "tempor",
+    "Price": 631,
+    "Barcode": 6079,
+    "VatRate": 1
+  },
+  {
+    "Name": "tempor",
+    "Price": 572,
+    "Barcode": 9432,
+    "VatRate": 2
+  },
+  {
+    "Name": "officia",
+    "Price": 354,
+    "Barcode": 5968,
+    "VatRate": 1
+  },
+  {
+    "Name": "qui",
+    "Price": 599,
+    "Barcode": 5645,
+    "VatRate": 2
+  },
+  {
+    "Name": "anim",
+    "Price": 409,
+    "Barcode": 7840,
+    "VatRate": 2
+  },
+  {
+    "Name": "sunt",
+    "Price": 664,
+    "Barcode": 4345,
+    "VatRate": 2
+  },
+  {
+    "Name": "sint",
+    "Price": 481,
+    "Barcode": 4301,
+    "VatRate": 1
+  },
+  {
+    "Name": "cillum",
+    "Price": 109,
+    "Barcode": 8465,
+    "VatRate": 1
+  },
+  {
+    "Name": "dolor",
+    "Price": 756,
+    "Barcode": 5155,
+    "VatRate": 1
+  },
+  {
+    "Name": "consequat",
+    "Price": 242,
+    "Barcode": 1521,
+    "VatRate": 1
+  },
+  {
+    "Name": "consequat",
+    "Price": 734,
+    "Barcode": 4184,
+    "VatRate": 1
+  },
+  {
+    "Name": "duis",
+    "Price": 627,
+    "Barcode": 2871,
+    "VatRate": 1
+  },
+  {
+    "Name": "in",
+    "Price": 204,
+    "Barcode": 6324,
+    "VatRate": 1
+  },
+  {
+    "Name": "occaecat",
+    "Price": 579,
+    "Barcode": 6681,
+    "VatRate": 2
+  },
+  {
+    "Name": "et",
+    "Price": 285,
+    "Barcode": 5294,
+    "VatRate": 1
+  },
+  {
+    "Name": "commodo",
+    "Price": 782,
+    "Barcode": 8770,
+    "VatRate": 2
+  },
+  {
+    "Name": "esse",
+    "Price": 277,
+    "Barcode": 7337,
+    "VatRate": 1
+  },
+  {
+    "Name": "ad",
+    "Price": 481,
+    "Barcode": 1205,
+    "VatRate": 2
+  },
+  {
+    "Name": "ut",
+    "Price": 978,
+    "Barcode": 8429,
+    "VatRate": 2
+  },
+  {
+    "Name": "in",
+    "Price": 185,
+    "Barcode": 7919,
+    "VatRate": 2
+  },
+  {
+    "Name": "aliquip",
+    "Price": 754,
+    "Barcode": 4325,
+    "VatRate": 1
+  },
+  {
+    "Name": "aute",
+    "Price": 452,
+    "Barcode": 7479,
+    "VatRate": 1
+  },
+  {
+    "Name": "quis",
+    "Price": 565,
+    "Barcode": 8774,
+    "VatRate": 1
+  },
+  {
+    "Name": "elit",
+    "Price": 434,
+    "Barcode": 8689,
+    "VatRate": 2
+  },
+  {
+    "Name": "minim",
+    "Price": 235,
+    "Barcode": 2026,
+    "VatRate": 1
+  },
+  {
+    "Name": "ut",
+    "Price": 759,
+    "Barcode": 3180,
+    "VatRate": 2
+  },
+  {
+    "Name": "quis",
+    "Price": 547,
+    "Barcode": 8851,
+    "VatRate": 1
+  },
+  {
+    "Name": "incididunt",
+    "Price": 808,
+    "Barcode": 3857,
+    "VatRate": 1
+  }
+]

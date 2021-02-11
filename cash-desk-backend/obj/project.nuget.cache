@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fd5418OFSwYi3INvNkaZS2hgv+qp+KiCNdH9dAc7JeZCRRjOWTATKI1luU6OsPo7Nl7DHzouH1sem1ziFgWf3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jawor\\Desktop\\kasa sklepowa\\cash-desk\\cash-desk-backend\\cash-desk-backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jawor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jawor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jawor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
