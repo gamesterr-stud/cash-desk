@@ -13,7 +13,8 @@ namespace cash_desk_front
             int iteration = 1;
             List<Product> Basket = new List<Product>();
             List<Receipt> AllReceipts = new List<Receipt>();
-            while (1 == 1) {
+            while (1 == 1)
+            {
                 Console.Clear();
                 Receipt receipt = new Receipt();
                 Console.WriteLine("WITAJ W PROGRAMIE KASY SKLEPOWEJ");
@@ -53,11 +54,13 @@ namespace cash_desk_front
                         {
                             Console.Clear();
                             decimal sum = 0;
+                            decimal totalSum = 0;
                             decimal NumberofOne = 0;
                             decimal NumberofTwo = 0;
                             foreach (Product product in Basket)
                             {
                                 sum = product.Price * product.Amount;
+                                totalSum = totalSum + sum;
                                 if (product.VatRate == 1)
                                 {
                                     NumberofOne = NumberofOne + 1;
@@ -66,12 +69,13 @@ namespace cash_desk_front
                                 {
                                     NumberofTwo = NumberofTwo + 1;
                                 }
+                                                               
                             }
-                            decimal net = (sum * NumberofOne * 8 / 100) + (sum * NumberofTwo * 23 / 100);
+                            decimal net = (totalSum * NumberofOne * 8 / 100) + (totalSum * NumberofTwo * 23 / 100);
                             receipt.Id = iteration;
                             receipt.Products = Basket;
                             receipt.Date = DateTime.Now;
-                            receipt.TotalCost = sum;
+                            receipt.TotalCost = totalSum;
                             receipt.Net = net;
                             iteration = iteration + 1;
                             AllReceipts.Add(receipt);
@@ -80,7 +84,8 @@ namespace cash_desk_front
                             Console.WriteLine("Data wystawienia:");
                             Console.WriteLine(receipt.Date);
                             Console.WriteLine("Produkty:");
-                            foreach (Product product in receipt.Products) {
+                            foreach (Product product in receipt.Products)
+                            {
                                 Console.WriteLine("Nazwa produktu:");
                                 Console.WriteLine(product.Name);
                                 Console.WriteLine("Cena:");
@@ -92,7 +97,7 @@ namespace cash_desk_front
                                 Console.WriteLine("");
                             }
                             Console.WriteLine("Suma Brutto:");
-                            Console.WriteLine(sum);
+                            Console.WriteLine(totalSum);
                             Console.WriteLine("W tym VAT:");
                             Console.WriteLine(net);
                             Console.WriteLine("");
@@ -114,13 +119,13 @@ namespace cash_desk_front
                 {
                     Console.Clear();
                     foreach (Product product in shop.AllProducts)
-                    {                       
+                    {
                         Console.WriteLine("Nazwa produktu:");
                         Console.WriteLine(product.Name);
                         Console.WriteLine("Kod kreskowy:");
                         Console.WriteLine(product.Barcode);
                         Console.WriteLine("Cena:");
-                        Console.WriteLine(product.Price);                        
+                        Console.WriteLine(product.Price);
                         Console.WriteLine("Kat. VAT:");
                         Console.WriteLine(product.VatRate);
                         Console.WriteLine("");
@@ -138,10 +143,11 @@ namespace cash_desk_front
                         Console.ReadLine();
                         break;
                     }
-                    else {
+                    else
+                    {
                         Console.Clear();
                         foreach (Receipt receipt1 in AllReceipts)
-                        {                           
+                        {
                             Console.WriteLine("Numer paragonu:");
                             Console.WriteLine(receipt1.Id);
                             Console.WriteLine("Data wystawienia:");
@@ -158,8 +164,7 @@ namespace cash_desk_front
                         break;
                     }
                 }
-            }                    
+            }
         }
     }
 }
-
